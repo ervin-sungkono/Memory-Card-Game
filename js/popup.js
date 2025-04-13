@@ -70,6 +70,7 @@ export class Dialog {
 
         document.body.appendChild(this.#element);
         this.#element.classList.add('show');
+        this.#element.classList.remove('hide');
     }
 
     async hide() {
